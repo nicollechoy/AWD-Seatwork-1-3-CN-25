@@ -49,6 +49,13 @@ header nav ul li:last-child {
     margin-right: 20px;
 }
 
+header nav ul li a.active {
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    transition: 0.3s ease-in-out;
+}
+
 #landing {
     position: relative;
     background: url(/assets/img/landingpagebg.png) no-repeat center center;
