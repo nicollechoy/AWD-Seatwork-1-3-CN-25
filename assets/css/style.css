@@ -56,6 +56,20 @@ header nav ul li a.active {
     transition: 0.3s ease-in-out;
 }
 
+.logo-overlay {
+    position: absolute;
+    top: -90px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 200px;
+    height: auto;
+}
+
+.logo-overlay img {
+    width: 100%;
+    height: auto;
+}
+
 #landing {
     position: relative;
     background: url(/assets/img/landingpagebg.png) no-repeat center center;
@@ -205,5 +219,4 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 30px;   
 }
