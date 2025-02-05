@@ -5,15 +5,15 @@
     font-family: Arial, sans-serif;
 }
 
-body {
-    background-color: #183057;
+html, body {
+    background-color: #183057 !important;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0b1320; /* Header background color */
+    background-color: #0b1320;
     color: white;
     padding: 10px;
 }
@@ -74,12 +74,14 @@ header nav ul li a.active {
     width: 90%;
     margin: 40px auto;
     gap: 30px;
+    flex-wrap: wrap; /* Ensures items wrap instead of squishing */
 }
 
 .ticket-box {
     text-align: left;
     flex: 1;
     padding: 20px;
+    min-width: 250px; /* Prevents text from getting too small */
 }
 
 .ticket-box h2 {
@@ -122,12 +124,21 @@ header nav ul li a.active {
     color: white;
 }
 
-.promo img {
-    max-width: 100%;
-    border-radius: 12px;
-    width: 700px;
-    height: auto;
+.promo .carousel-item img {
+    width: 100%;
+    height: 350px;
     object-fit: cover;
+    border-radius: 12px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+.carousel {
+    max-width: 700px;
+    margin: auto;
 }
 
 .membership-container {
@@ -232,12 +243,32 @@ header nav ul li a.active {
     color: white;
 }
 
-
 footer {
     background-color: #0b1320;
     color: white;
     text-align: center;
-    padding: 40px 20px;
-    margin-top: 60px;
-    font-size: 18px;
+    padding: 20px;
+}
+
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+    .ticket-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ticket-options {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .ticket-options button {
+        width: 90%; 
+    }
+
+    .promo .carousel-item img {
+        height: auto;
+        max-width: 100%;
+        object-fit: contain;
+    }
 }
