@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+Discover the ultimate movie experience with Film88 Movies! Browse through the latest "Now Showing" and "Coming Soon" films, explore detailed movie information, and effortlessly book your tickets—all in one place. With a stunning video background and seamless navigation, Film88 Movies makes booking your next movie night easy and exciting.
 </div>
 
 <br />
