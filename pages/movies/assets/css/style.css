@@ -81,6 +81,27 @@ header nav ul li a.active {
     color: white;
 }
 
+.movie-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.movie-price {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+label, select, input {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
 #back, button {
     display: block;
     width: 100%;
