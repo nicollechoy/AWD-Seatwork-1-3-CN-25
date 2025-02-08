@@ -27,33 +27,4 @@ document.addEventListener("DOMContentLoaded", function () {
             card.style.boxShadow = "0px 4px 6px rgba(0, 0, 0, 0.1)";
         });
     });
-
-    const bgVideo = document.getElementById("bg-video");
-    const videoControlBtn = document.createElement("button");
-    videoControlBtn.innerText = "Pause Video";
-    videoControlBtn.id = "video-control-btn";
-    
-    videoControlBtn.style.position = "fixed";
-    videoControlBtn.style.bottom = "20px";
-    videoControlBtn.style.right = "20px";
-    videoControlBtn.style.padding = "10px 15px";
-    videoControlBtn.style.fontSize = "14px";
-    videoControlBtn.style.backgroundColor = "rgba(255, 0, 0, 0.7)";
-    videoControlBtn.style.color = "white";
-    videoControlBtn.style.border = "none";
-    videoControlBtn.style.borderRadius = "5px";
-    videoControlBtn.style.cursor = "pointer";
-    videoControlBtn.style.zIndex = "1000";
-
-    document.body.appendChild(videoControlBtn);
-
-    videoControlBtn.addEventListener("click", function () {
-        if (bgVideo.paused) {
-            bgVideo.play();
-            videoControlBtn.innerText = "Pause Video";
-        } else {
-            bgVideo.pause();
-            videoControlBtn.innerText = "Play Video";
-        }
-    });
 });
