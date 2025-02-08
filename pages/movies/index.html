@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film88 Movies</title>
+    <link rel="stylesheet" href="../movies/css/style.css">
+</head>
+<body>
+
+    <video autoplay muted loop id="bg-video">
+        <source src="../movies/img/background.mp4" type="video/mp4">
+    </video>
+    <div id="video-overlay"></div>
+
+    <header>
+        <div class="logo">
+            <img src="../movies/img/logoc.png" alt="Film88 Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pages/movies/index.html">Movies</a></li>
+                <li><a href="./pages/loyalty/index.html">Loyalty</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="movie-section">
+            <h2 class="now-showing">NOW SHOWING</h2>
+            <div class="movies" id="now-showing">
+                <div class="movie-card">
+                    <img src="../movies/img/hlgposter.jpg" alt="Hello, Love, Goodbye">
+                    <h3>Hello, Love, Goodbye</h3>
+                    <p>A heartwarming story of love and sacrifice in a foreign land.</p>
+                    <a href="../hlg/index.html" class="buy-btn">Buy Tickets</a>
+                </div>
+
+                <div class="movie-card">
+                    <img src="../movies/img/hlaposter.jpg" alt="Hello, Love, Again">
+                    <h3>Hello, Love, Again</h3>
+                    <p>The sequel continues the journey of love with unexpected turns.</p>
+                    <a href="../booking/hla.html" class="buy-btn">Buy Tickets</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="movie-section">
+            <h2 class="coming-soon">COMING SOON</h2>
+            <div class="movies" id="coming-soon">
+                <div class="movie-card">
+                    <img src="../movies/img/IO2.jpg" alt="Inside Out 2">
+                    <h3>Inside Out 2</h3>
+                    <p>New emotions join the fun as Riley faces teenage challenges.</p>
+                    <a href="../movies/info/io2.html" class="buy-btn">More Info</a>
+                </div>
+
+                <div class="movie-card">
+                    <img src="../movies/img/Rposter.jpg" alt="Re:ZERO">
+                    <h3>Re:ZERO</h3>
+                    <p>Subaru's journey continues in this thrilling anime adventure.</p>
+                    <a href="../movies/info/rezero.html" class="buy-btn">More Info</a>
+                </div>
+
+                <div class="movie-card">
+                    <img src="../movies/img/Iposter.jpg" alt="Incantation">
+                    <h3>INCANTATION</h3>
+                    <p>A terrifying horror film based on true events.</p>
+                    <a href="../movies/info/incantation.html" class="buy-btn">More Info</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Film88. All rights reserved.</p>
+        <p>Contact us: film88@booking.com | Phone: 123-456-7890</p>
+    </footer>
+
+    <script src="../movies/js/script.js"></script>
+</body>
+</html>
