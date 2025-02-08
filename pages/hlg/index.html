@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../movies/assets/css/style.css">
+
+</head>
+<body>
+
+    <video autoplay muted loop id="bg-video">
+        <source src="../movies/assets/img/bg.mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <div class="logo">
+            <img src="./assets/img/logoc.png" alt="Film88 Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../movies/index.html">Movies</a></li>
+                <li><a href="../loyalty/index.html">Loyalty</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="movie-title">Hello, Love, Goodbye</h1>
+        <p class="movie-price"><strong>Price:</strong> P350</p>
+
+        <label for="location">Location:</label>
+        <select id="location">
+            <option value="" disabled selected>Choose a location</option>
+            <option>Caloocan</option>
+            <option>Manila</option>
+            <option>Rizal</option>
+        </select>
+
+        <label for="time">Time:</label>
+        <select id="time">
+            <option value="" disabled selected>Choose a time</option>
+            <option>9:00 AM</option>
+            <option>12:00 PM</option>
+            <option>3:00 PM</option>
+            <option>6:00 PM</option>
+            <option>9:00 PM</option>
+        </select>
+
+        <div class="screen">SCREEN</div>
+        <div class="seating">
+            <div class="row">
+                <button class="seat" data-seat="A1">A1</button>
+                <button class="seat" data-seat="A2">A2</button>
+                <button class="seat" data-seat="A3">A3</button>
+                <button class="seat" data-seat="A4">A4</button>
+                <button class="seat" data-seat="A5">A5</button>
+            </div>
+            <div class="row">
+                <button class="seat" data-seat="B1">B1</button>
+                <button class="seat" data-seat="B2">B2</button>
+                <button class="seat" data-seat="B3">B3</button>
+                <button class="seat" data-seat="B4">B4</button>
+                <button class="seat" data-seat="B5">B5</button>
+            </div>
+            <div class="row">
+                <button class="seat" data-seat="C1">C1</button>
+                <button class="seat" data-seat="C2">C2</button>
+                <button class="seat" data-seat="C3">C3</button>
+                <button class="seat" data-seat="C4">C4</button>
+                <button class="seat" data-seat="C5">C5</button>
+            </div>
+        </div>
+
+        <p><strong>Selected Seat:</strong> <span id="selected-seat">None</span></p>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <span id="email-error" style="color: red; font-size: 14px; display: none;">Please enter a valid email</span>
+
+        <label for="payment">Payment Method:</label>
+        <select id="payment">
+            <option value="default" disabled selected>Choose a payment method</option>
+            <option>Cash</option>
+            <option>GKash</option>
+            <option>PayMaia</option>
+            <option>Debit Card</option>
+            <option>Credit Card</option>
+        </select>
+
+        <button id="submit">Submit Booking</button>
+        <a href="#" id="back" class="back">Back</a>
+
+        <p id="confirmation-message" style="color: green; font-weight: bold; display: none;">Booking Confirmed!</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Film88. All rights reserved.</p>
+        <p>Contact us: film88@booking.com | Phone: 123-456-7890</p>
+    </footer>
+
+    <script src="../movies/assets/js/scripts.js"></script>
+
+</body>
+</html>
