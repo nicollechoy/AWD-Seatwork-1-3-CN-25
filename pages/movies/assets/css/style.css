@@ -6,11 +6,13 @@
 }
 
 body {
-    background-color: #183057; 
-    color: white;
-    text-align: center;
-    padding: 0;
+    font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url('../img/bg.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
 }
 
 
@@ -68,6 +70,23 @@ header nav ul li a.active {
     border-radius: 10px;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
     margin-top: 30px;
+    color: white;
+}
+
+.button.back {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.button.back:hover {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .screen {
