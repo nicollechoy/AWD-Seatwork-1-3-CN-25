@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/nicollechoy/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/logoc.png" alt="Film88" width="100" height="100">
   </a>
@@ -22,8 +22,7 @@ Discover the ultimate movie experience with Film88 Movies! Browse through the la
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=nicollechoy/AWD-Seatwork-1-3-CN-25)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
-
+[![wakatime](https://wakatime.com/badge/user/018f02fa-4de7-43b2-8403-cb473f551c83/project/500b1537-a1b0-47e9-b9b8-56e37fc7125e.svg)](https://wakatime.com/badge/user/018f02fa-4de7-43b2-8403-cb473f551c83/project/500b1537-a1b0-47e9-b9b8-56e37fc7125e)
 ---
 
 <br />
@@ -128,7 +127,7 @@ WD-ProjectName
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Youtube | Movie Teaser | https://youtu.be/ytFpt3hGrqw?si=4atoW_hvXmi1HfvT
  |
-| Youtube | Movie Teaser | https://youtu.be/7qYhveTJUlo?si=zfG1UkYlgXRl8a0g |
+ | Youtube | Movie Teaser | https://youtu.be/7qYhveTJUlo?si=zfG1UkYlgXRl8a0g |
 | Pinterest | Poster | https://ph.pinterest.com/pin/133067363982327805/
  |
 | Pinterest | Poster | https://ph.pinterest.com/pin/42784265205146077/
