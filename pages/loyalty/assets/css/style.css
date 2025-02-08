@@ -38,11 +38,12 @@ header nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.1rem;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
 header nav ul li a:hover {
-    text-decoration: underline;
-}
+    opacity: 0.7;
+    transform: scale(1.1);}
 
 header nav ul li:last-child {
     margin-right: 20px;
@@ -51,8 +52,7 @@ header nav ul li:last-child {
 header nav ul li a.active {
     color: white;
     font-weight: bold;
-    border-bottom: 2px solid white;
-    transition: 0.3s ease-in-out;
+    border-bottom: none;
 }
 
 .hero {
@@ -74,14 +74,14 @@ header nav ul li a.active {
     width: 90%;
     margin: 40px auto;
     gap: 30px;
-    flex-wrap: wrap; /* Ensures items wrap instead of squishing */
+    flex-wrap: wrap;
 }
 
 .ticket-box {
     text-align: left;
     flex: 1;
     padding: 20px;
-    min-width: 250px; /* Prevents text from getting too small */
+    min-width: 250px; 
 }
 
 .ticket-box h2 {
@@ -251,7 +251,6 @@ footer {
 }
 
 
-/* Responsive Fixes */
 @media (max-width: 768px) {
     .ticket-container {
         flex-direction: column;
@@ -263,7 +262,7 @@ footer {
     }
 
     .ticket-options button {
-        width: 90%; 
+        width: 90%;
     }
 
     .promo .carousel-item img {
