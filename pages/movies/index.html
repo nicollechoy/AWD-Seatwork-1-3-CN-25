@@ -74,9 +74,11 @@
 
         <label for="email">Email:</label>
         <input type="email" id="email" placeholder="Enter your email" required>
+        <span id="email-error" style="color: red; font-size: 14px; display: none;">Please enter a valid email</span>
 
         <label for="payment">Payment Method:</label>
         <select id="payment">
+            <option value="default" disabled selected>Choose a payment method</option>
             <option>Cash</option>
             <option>GKash</option>
             <option>PayMaia</option>
@@ -92,7 +94,7 @@
         <p>Contact us: film88@booking.com | Phone: 123-456-7890</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../movies/assets/js/scripts.js"></script>
 
 </body>
 </html>
