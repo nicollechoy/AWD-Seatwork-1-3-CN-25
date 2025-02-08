@@ -125,18 +125,13 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Youtube | Movie Teaser | https://youtu.be/ytFpt3hGrqw?si=4atoW_hvXmi1HfvT
- |
- | Youtube | Movie Teaser | https://youtu.be/7qYhveTJUlo?si=zfG1UkYlgXRl8a0g |
-| Pinterest | Poster | https://ph.pinterest.com/pin/133067363982327805/
- |
-| Pinterest | Poster | https://ph.pinterest.com/pin/42784265205146077/
- |
+| Youtube | Movie Teaser | https://youtu.be/ytFpt3hGrqw?si=4atoW_hvXmi1HfvT |
+| Youtube | Movie Teaser | https://youtu.be/7qYhveTJUlo?si=zfG1UkYlgXRl8a0g |
+| Pinterest | Poster | https://ph.pinterest.com/pin/133067363982327805/ |
+| Pinterest | Poster | https://ph.pinterest.com/pin/42784265205146077/ |
 | Google  | Poster | https://rb.gy/oligyu |
 | FREEPIK | Stock Video | https://rb.gy/s0ho9b |
-| Cobalt | Video Saving Site | https://cobalt.tools/
- |
-| SM Cinema | Inspired by SM Cinema | https://www2.smcinema.com/
- |
+| Cobalt | Video Saving Site | https://cobalt.tools/ |
+| SM Cinema | Inspired by SM Cinema | https://www2.smcinema.com/ |
 | Google Fonts | Fonts | https://fonts.google.com/specimen/Merriweather?query=mer |
 | Canva | Editing Photos and Videos | https://www.canva.com/ |
